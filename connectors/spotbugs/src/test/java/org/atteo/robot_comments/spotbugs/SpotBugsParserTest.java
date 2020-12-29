@@ -21,7 +21,7 @@ public class SpotBugsParserTest {
 
         var comment = robotReview.getComments().get(0);
         assertThat(comment.getLine()).isEqualTo(240);
-        assertThat(comment.getFile()).isEqualTo("src/main/java/org/atteo/classindex/processor/ClassIndexProcessor.java");
+        assertThat(comment.getPath()).isEqualTo("src/main/java/org/atteo/classindex/processor/ClassIndexProcessor.java");
         assertThat(comment.getMessage()).isEqualTo("Found reliance on default encoding in" +
             " org.atteo.classindex.processor.ClassIndexProcessor.readOldIndexFile(Set, String):" +
             " new java.io.FileReader(String)");

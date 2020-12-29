@@ -8,9 +8,7 @@ public class GerritTest {
     @Test
     public void shouldConnect() throws RestApiException {
         var gerrit = new Gerrit("http://ci.twoje-zdrowie.pl/gerrit/", "spotbugs", "W$arM~z`e#3Nqa");
-        var changes = gerrit.getChanges();
-        System.out.println(changes);
 
-        gerrit.addComment();
+        //gerrit.upload();
     }
 }

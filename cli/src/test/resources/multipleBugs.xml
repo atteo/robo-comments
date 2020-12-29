@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BugCollection sequence="0" release="" analysisTimestamp="1609262693018" version="4.1.4" timestamp="1609262602053">
+    <Project projectName="SpotBugs">
+        <Jar>/home/sentinel/projects/robot-comments/spotbugs/target/classes</Jar>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/org/atteo/robot-comments/specification/1.0-SNAPSHOT/specification-1.0-SNAPSHOT.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.11.4/jackson-dataformat-xml-2.11.4.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.4/jackson-module-jaxb-annotations-2.11.4.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar</AuxClasspathEntry>
+        <AuxClasspathEntry>/home/sentinel/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.3/woodstox-core-6.2.3.jar</AuxClasspathEntry>
+        <SrcDir>/home/sentinel/projects/robot-comments/spotbugs/src/main/java</SrcDir>
+        <WrkDir>/home/sentinel/projects/robot-comments/spotbugs/target</WrkDir>
+    </Project>
+    <BugInstance instanceOccurrenceNum="0" instanceHash="1fcc2943f254cf28e97c16ae8845084c" rank="12" abbrev="UwF" category="CORRECTNESS" priority="2" type="UWF_UNWRITTEN_FIELD" instanceOccurrenceMax="0">
+        <ShortMessage>Unwritten field</ShortMessage>
+        <LongMessage>Unwritten field: org.atteo.robot_comments.spotbugs.xml.SourceLine.end</LongMessage>
+        <Class classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="3" end="22" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>At SourceLine.java:[lines 3-22]</Message>
+            </SourceLine>
+            <Message>In class org.atteo.robot_comments.spotbugs.xml.SourceLine</Message>
+        </Class>
+        <Field isStatic="false" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" signature="Ljava/lang/Integer;" name="end" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>In SourceLine.java</Message>
+            </SourceLine>
+            <Message>Field org.atteo.robot_comments.spotbugs.xml.SourceLine.end</Message>
+        </Field>
+        <SourceLine endBytecode="1" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="18" end="18" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java" startBytecode="1" primary="true">
+            <Message>At SourceLine.java:[line 18]</Message>
+        </SourceLine>
+    </BugInstance>
+    <BugInstance instanceOccurrenceNum="0" instanceHash="fec7538984905c2b2f65fb661fe1237" rank="12" abbrev="UwF" category="CORRECTNESS" priority="2" type="UWF_UNWRITTEN_FIELD" instanceOccurrenceMax="0">
+        <ShortMessage>Unwritten field</ShortMessage>
+        <LongMessage>Unwritten field: org.atteo.robot_comments.spotbugs.xml.SourceLine.message</LongMessage>
+        <Class classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="3" end="22" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>At SourceLine.java:[lines 3-22]</Message>
+            </SourceLine>
+            <Message>In class org.atteo.robot_comments.spotbugs.xml.SourceLine</Message>
+        </Class>
+        <Field isStatic="false" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" signature="Ljava/lang/String;" name="message" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>In SourceLine.java</Message>
+            </SourceLine>
+            <Message>Field org.atteo.robot_comments.spotbugs.xml.SourceLine.message</Message>
+        </Field>
+        <SourceLine endBytecode="1" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="22" end="22" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java" startBytecode="1" primary="true">
+            <Message>At SourceLine.java:[line 22]</Message>
+        </SourceLine>
+    </BugInstance>
+    <BugInstance instanceOccurrenceNum="0" instanceHash="71e63dfa91881a9240d49d7a5f20965c" rank="12" abbrev="UwF" category="CORRECTNESS" priority="2" type="UWF_UNWRITTEN_FIELD" instanceOccurrenceMax="0">
+        <ShortMessage>Unwritten field</ShortMessage>
+        <LongMessage>Unwritten field: org.atteo.robot_comments.spotbugs.xml.SourceLine.sourcepath</LongMessage>
+        <Class classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="3" end="22" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>At SourceLine.java:[lines 3-22]</Message>
+            </SourceLine>
+            <Message>In class org.atteo.robot_comments.spotbugs.xml.SourceLine</Message>
+        </Class>
+        <Field isStatic="false" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" signature="Ljava/lang/String;" name="sourcepath" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>In SourceLine.java</Message>
+            </SourceLine>
+            <Message>Field org.atteo.robot_comments.spotbugs.xml.SourceLine.sourcepath</Message>
+        </Field>
+        <SourceLine endBytecode="1" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="10" end="10" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java" startBytecode="1" primary="true">
+            <Message>At SourceLine.java:[line 10]</Message>
+        </SourceLine>
+    </BugInstance>
+    <BugInstance instanceOccurrenceNum="0" instanceHash="3319d908f7aa707421b882c950cafd11" rank="12" abbrev="UwF" category="CORRECTNESS" priority="2" type="UWF_UNWRITTEN_FIELD" instanceOccurrenceMax="0">
+        <ShortMessage>Unwritten field</ShortMessage>
+        <LongMessage>Unwritten field: org.atteo.robot_comments.spotbugs.xml.SourceLine.start</LongMessage>
+        <Class classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="3" end="22" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>At SourceLine.java:[lines 3-22]</Message>
+            </SourceLine>
+            <Message>In class org.atteo.robot_comments.spotbugs.xml.SourceLine</Message>
+        </Class>
+        <Field isStatic="false" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" signature="Ljava/lang/Integer;" name="start" primary="true">
+            <SourceLine classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java">
+                <Message>In SourceLine.java</Message>
+            </SourceLine>
+            <Message>Field org.atteo.robot_comments.spotbugs.xml.SourceLine.start</Message>
+        </Field>
+        <SourceLine endBytecode="1" classname="org.atteo.robot_comments.spotbugs.xml.SourceLine" start="14" end="14" sourcepath="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" sourcefile="SourceLine.java" startBytecode="1" primary="true">
+            <Message>At SourceLine.java:[line 14]</Message>
+        </SourceLine>
+    </BugInstance>
+    <BugCategory category="CORRECTNESS">
+        <Description>Correctness</Description>
+    </BugCategory>
+    <BugPattern abbrev="UwF" category="CORRECTNESS" type="UWF_UNWRITTEN_FIELD">
+        <ShortDescription>Unwritten field</ShortDescription>
+        <Details>
+
+  &lt;p&gt; This field is never written.&amp;nbsp; All reads of it will return the default
+value. Check for errors (should it have been initialized?), or remove it if it is useless.&lt;/p&gt;
+
+    </Details>
+    </BugPattern>
+    <BugCode abbrev="UwF">
+        <Description>Unwritten field</Description>
+    </BugCode>
+    <Errors missingClasses="0" errors="0"/>
+    <FindBugsSummary num_packages="2" total_classes="5" priority_2="4" total_size="88" clock_seconds="1.03" referenced_classes="39" vm_version="15+36-Ubuntu-1" total_bugs="4" java_version="15" gc_seconds="0.01" alloc_mbytes="512.00" cpu_seconds="3.61" peak_mbytes="197.21" timestamp="Tue, 29 Dec 2020 18:23:22 +0100">
+        <FileStats path="org/atteo/robot_comments/spotbugs/SpotBugsParser.java" size="27" bugCount="0"/>
+        <FileStats path="org/atteo/robot_comments/spotbugs/xml/BugCollection.java" size="25" bugCount="0"/>
+        <FileStats path="org/atteo/robot_comments/spotbugs/xml/BugInstance.java" size="12" bugCount="0"/>
+        <FileStats path="org/atteo/robot_comments/spotbugs/xml/Project.java" size="9" bugCount="0"/>
+        <FileStats path="org/atteo/robot_comments/spotbugs/xml/SourceLine.java" size="15" bugHash="25d1784a2a4d3d9dcbbf1b956ee7abee" bugCount="4"/>
+        <PackageStats package="org.atteo.robot_comments.spotbugs" total_bugs="0" total_size="27" total_types="1">
+            <ClassStats bugs="0" size="27" interface="false" sourceFile="SpotBugsParser.java" class="org.atteo.robot_comments.spotbugs.SpotBugsParser"/>
+        </PackageStats>
+        <PackageStats package="org.atteo.robot_comments.spotbugs.xml" total_bugs="4" priority_2="4" total_size="61" total_types="4">
+            <ClassStats bugs="0" size="25" interface="false" sourceFile="BugCollection.java" class="org.atteo.robot_comments.spotbugs.xml.BugCollection"/>
+            <ClassStats bugs="0" size="12" interface="false" sourceFile="BugInstance.java" class="org.atteo.robot_comments.spotbugs.xml.BugInstance"/>
+            <ClassStats bugs="0" size="9" interface="false" sourceFile="Project.java" class="org.atteo.robot_comments.spotbugs.xml.Project"/>
+            <ClassStats bugs="4" size="15" priority_2="4" interface="false" sourceFile="SourceLine.java" class="org.atteo.robot_comments.spotbugs.xml.SourceLine"/>
+        </PackageStats>
+        <FindBugsProfile>
+            <ClassProfile avgMicrosecondsPerInvocation="416" totalMilliseconds="267" name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" maxMicrosecondsPerInvocation="8569" standardDeviationMicrosecondsPerInvocation="835" invocations="642"/>
+            <ClassProfile avgMicrosecondsPerInvocation="1712" totalMilliseconds="66" name="edu.umd.cs.findbugs.detect.FieldItemSummary" maxMicrosecondsPerInvocation="11291" standardDeviationMicrosecondsPerInvocation="2880" invocations="39"/>
+            <ClassProfile avgMicrosecondsPerInvocation="71" totalMilliseconds="45" name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" maxMicrosecondsPerInvocation="2272" standardDeviationMicrosecondsPerInvocation="113" invocations="645"/>
+            <ClassProfile avgMicrosecondsPerInvocation="1101" totalMilliseconds="42" name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" maxMicrosecondsPerInvocation="8881" standardDeviationMicrosecondsPerInvocation="1978" invocations="39"/>
+            <ClassProfile avgMicrosecondsPerInvocation="59" totalMilliseconds="35" name="edu.umd.cs.findbugs.util.TopologicalSort" maxMicrosecondsPerInvocation="6660" standardDeviationMicrosecondsPerInvocation="289" invocations="603"/>
+            <ClassProfile avgMicrosecondsPerInvocation="223" totalMilliseconds="31" name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" maxMicrosecondsPerInvocation="2112" standardDeviationMicrosecondsPerInvocation="307" invocations="141"/>
+            <ClassProfile avgMicrosecondsPerInvocation="288" totalMilliseconds="22" name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" maxMicrosecondsPerInvocation="7193" standardDeviationMicrosecondsPerInvocation="859" invocations="77"/>
+            <ClassProfile avgMicrosecondsPerInvocation="548" totalMilliseconds="21" name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" maxMicrosecondsPerInvocation="4210" standardDeviationMicrosecondsPerInvocation="997" invocations="39"/>
+            <ClassProfile avgMicrosecondsPerInvocation="507" totalMilliseconds="19" name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" maxMicrosecondsPerInvocation="4925" standardDeviationMicrosecondsPerInvocation="910" invocations="39"/>
+            <ClassProfile avgMicrosecondsPerInvocation="721" totalMilliseconds="18" name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" maxMicrosecondsPerInvocation="17129" standardDeviationMicrosecondsPerInvocation="3282" invocations="26"/>
+            <ClassProfile avgMicrosecondsPerInvocation="466" totalMilliseconds="18" name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" maxMicrosecondsPerInvocation="11837" standardDeviationMicrosecondsPerInvocation="1865" invocations="39"/>
+            <ClassProfile avgMicrosecondsPerInvocation="385" totalMilliseconds="15" name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" maxMicrosecondsPerInvocation="3856" standardDeviationMicrosecondsPerInvocation="705" invocations="39"/>
+        </FindBugsProfile>
+    </FindBugsSummary>
+    <ClassFeatures/>
+    <History/>
+</BugCollection>

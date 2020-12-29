@@ -14,6 +14,8 @@
 	<modules>
 		<module>specification</module>
 		<module>connectors</module>
+		<module>filters</module>
+		<module>cli</module>
 	</modules>
 	<build>
 		<pluginManagement>
