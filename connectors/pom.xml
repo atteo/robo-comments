@@ -7,25 +7,12 @@
 		<version>1.18</version>
 	</parent>
 	<groupId>org.atteo.robot-comments</groupId>
-	<artifactId>parent</artifactId>
+	<artifactId>connectors</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Robot Comments</name>
+	<name>Connectors</name>
 	<modules>
-		<module>specification</module>
-		<module>connectors</module>
+		<module>file</module>
+		<module>spotbugs</module>
 	</modules>
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<configuration>
-						<source>11</source>
-						<target>11</target>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
 </project>
