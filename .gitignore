@@ -6,4 +6,4 @@ bin/
 .project
 .config/
 .idea
-parent.iml
+*.iml
