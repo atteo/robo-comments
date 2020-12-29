@@ -15,9 +15,9 @@ public class WriterTest {
         var comments = new RobotReview(List.of(new Comment("main.java", 5, "Missing parentheses")));
 
         // when
-        Writer.writeToFile(comments, "test.json");
+        Writer.writeToFile(comments, "target/test.json");
 
         // then
-        assertThat(Path.of("test.json")).exists();
+        assertThat(Path.of("target/test.json")).exists();
     }
 }
