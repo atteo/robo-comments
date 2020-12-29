@@ -13,6 +13,7 @@
 	<name>Connectors</name>
 	<modules>
 		<module>file</module>
+		<module>gerrit</module>
 		<module>spotbugs</module>
 	</modules>
 </project>
