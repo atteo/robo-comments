@@ -43,4 +43,8 @@ public class Mapper {
     public RobotReview read(InputStream inputStream) throws IOException {
         return mapper.readValue(inputStream, RobotReview.class);
     }
+
+    public RobotReview read(String file) throws IOException {
+        return mapper.readValue(Paths.get(file).toFile(), RobotReview.class);
+    }
 }

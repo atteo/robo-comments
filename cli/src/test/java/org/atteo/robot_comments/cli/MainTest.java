@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MainTest {
     @Test
-    public void shouldRunSpotbugs() throws CliException, IOException {
+    public void shouldRunSpotbugs() throws IOException {
         // given
         var args = new String[] { "-o", "target/out.json", "spotbugs", "-i", "src/test/resources/multipleBugs.xml" };
 

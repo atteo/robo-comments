@@ -1,4 +1,4 @@
-package org.atteo.robot_comments.cli;
+package org.atteo.robot_comments.cli.api;
 
 import java.util.List;
 import java.util.function.Supplier;

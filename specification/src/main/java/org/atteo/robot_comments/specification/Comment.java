@@ -45,6 +45,10 @@ public class Comment {
      */
     private Side side;
 
+    // for Jackson
+    public Comment() {
+    }
+
     public Comment(String path, Integer startLine, Integer line, String message, Side side) {
         this.path = path;
         this.line = line;

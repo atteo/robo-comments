@@ -1,7 +1,10 @@
 package org.atteo.robot_comments.cli;
 
 import java.util.List;
+import java.util.function.Supplier;
 
+import org.atteo.robot_comments.cli.api.Command;
+import org.atteo.robot_comments.cli.api.Plugin;
 import org.atteo.robot_comments.gerrit.Gerrit;
 import org.atteo.robot_comments.specification.RobotReview;
 
@@ -45,8 +48,8 @@ public class GerritArguments implements Plugin {
     }
 
     @Override
-    public RobotReview filter(JCommander gerritCommands, RobotReview robotReview) {
+    public RobotReview filter(JCommander gerritCommands, Supplier<RobotReview> robotReviewSupplier) {
         gerrit = new Gerrit(gerritUrl, user, password);
-        return robotReview;
+        return null;
     }
 }

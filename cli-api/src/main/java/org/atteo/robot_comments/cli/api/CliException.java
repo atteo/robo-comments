@@ -1,4 +1,4 @@
-package org.atteo.robot_comments.cli;
+package org.atteo.robot_comments.cli.api;
 
 public class CliException extends RuntimeException {
     public CliException(String message) {

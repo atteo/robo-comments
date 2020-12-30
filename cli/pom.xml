@@ -14,14 +14,9 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.atteo.classindex</groupId>
-			<artifactId>classindex</artifactId>
-			<version>${classindex.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.beust</groupId>
-			<artifactId>jcommander</artifactId>
-			<version>1.78</version>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>cli-api</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -36,6 +31,11 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>spotbugs</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>grep</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

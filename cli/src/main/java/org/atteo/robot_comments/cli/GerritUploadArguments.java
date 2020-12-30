@@ -1,5 +1,8 @@
 package org.atteo.robot_comments.cli;
 
+import java.util.function.Supplier;
+
+import org.atteo.robot_comments.cli.api.Command;
 import org.atteo.robot_comments.specification.RobotReview;
 
 import com.beust.jcommander.JCommander;
@@ -12,7 +15,7 @@ public class GerritUploadArguments implements Command {
     }
 
     @Override
-    public RobotReview filter(JCommander jCommander, RobotReview review) {
+    public RobotReview filter(JCommander jCommander, Supplier<RobotReview> reviewSupplier) {
         return null;
     }
 }

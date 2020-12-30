@@ -24,4 +24,13 @@ public class MapperTest {
         // then
         assertThat(Path.of("target/test.json")).exists();
     }
+
+    @Test
+    public void shouldReadFromFile() throws IOException {
+        // when
+        var robotReview = new Mapper().read("src/test/resources/test.json");
+
+        // then
+        assertThat(robotReview).isNotNull();
+    }
 }

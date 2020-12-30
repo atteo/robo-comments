@@ -13,6 +13,9 @@ import java.util.function.Supplier;
 import java.util.stream.StreamSupport;
 
 import org.atteo.classindex.ClassIndex;
+import org.atteo.robot_comments.cli.api.CliException;
+import org.atteo.robot_comments.cli.api.Command;
+import org.atteo.robot_comments.cli.api.Plugin;
 import org.atteo.robot_comments.file.Mapper;
 import org.atteo.robot_comments.specification.RobotReview;
 
