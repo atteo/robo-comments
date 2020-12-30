@@ -13,7 +13,6 @@
 	<name>Robot Comments</name>
 	<modules>
 		<module>specification</module>
-		<module>cli-api</module>
 		<module>connectors</module>
 		<module>filters</module>
 		<module>cli</module>

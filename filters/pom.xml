@@ -11,6 +11,5 @@
 	<name>Filters</name>
 	<modules>
 		<module>git</module>
-		<module>grep</module>
 	</modules>
 </project>
